@@ -1,0 +1,51 @@
+[
+  {
+    "model": "users.skills",
+    "pk": 1,
+    "fields": {
+      "name": "python"
+    }
+  },
+  {
+    "model": "users.skills",
+    "pk": 2,
+    "fields": {
+      "name": "sql"
+    }
+  },
+  {
+    "model": "users.skills",
+    "pk": 3,
+    "fields": {
+      "name": "powershell"
+    }
+  },
+  {
+    "model": "users.skills",
+    "pk": 4,
+    "fields": {
+      "name": "docker"
+    }
+  },
+  {
+    "model": "users.skills",
+    "pk": 5,
+    "fields": {
+      "name": "django"
+    }
+  },
+  {
+    "model": "users.skills",
+    "pk": 5,
+    "fields": {
+      "name": "flask"
+    }
+  },
+  {
+    "model": "users.skills",
+    "pk": 6,
+    "fields": {
+      "name": "git"
+    }
+  }
+]

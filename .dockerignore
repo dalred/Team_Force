@@ -1,0 +1,12 @@
+.git
+.github
+.dockerignore
+.gitignore
+__init__.py
+README.md
+__pycache__
+/venv/
+.sql
+.ps1
+.pytest_cache
+.env

@@ -1,0 +1,156 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "email": "test@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Иван",
+      "last_name": "Иванов",
+      "is_active": true,
+      "skills": [1, 2]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "email": "test2@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "is_active": true,
+      "skills": [1, 2, 3]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "email": "test3@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "is_active": true,
+      "skills": [4, 5, 6]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "email": "test4@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "is_active": true,
+      "skills": [1, 2, 3]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "email": "test5@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "is_active": true,
+      "skills": [1, 2, 4, 5]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "email": "test6@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "is_active": true,
+      "skills": [1]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "email": "admin@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "admin",
+      "first_name": "Админ",
+      "last_name": "Петров",
+      "is_active": true,
+      "skills": [1]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+      "email": "test8@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "is_active": true,
+      "skills": [1]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "email": "test9@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "is_active": true,
+      "skills": [1]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "email": "test10@teamforce.ru",
+      "password": "pbkdf2_sha256$320000$m97cWfhhYNwVrANH33uLdy$Q4gvOAHy36zs+bnrevL9l8Rugt1IOXNoVJRdH8UJvsg=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "user",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "is_active": true,
+      "skills": [1]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "email": "dalred@mail.ru",
+      "password": "pbkdf2_sha256$320000$RLQjGy9tbpCuEA0FrYAIni$KIG0H0JGM8Sz/EhG6WPwgPjxwEhBTVio/hrFG6pnO/A=",
+      "last_login": "2022-02-20 13:34:16.332479+03:00",
+      "role": "admin",
+      "first_name": "Даниил",
+      "last_name": "Кузьмин",
+      "is_active": true,
+      "skills": [1,2,3,4,5,6]
+    }
+  }
+]

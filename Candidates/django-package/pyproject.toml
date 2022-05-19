@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-package"
+version = "0.1.0"
+description = ""
+authors = ["dalred <RcrF63gGG7HpbAT>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.4"
+psycopg2 = "^2.9.3"
+Pillow = "^9.1.1"
+djangorestframework = "^3.13.1"
+drf-spectacular = "^0.22.1"
+pytest-factoryboy = "^2.3.0"
+djangorestframework-simplejwt = "4.8.0"
+django-filter = "^21.1"
+django-taggit = "^3.0.0"
+djoser = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
