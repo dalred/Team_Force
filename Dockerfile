@@ -10,4 +10,4 @@ RUN apt-get update \
     && pip install poetry \
     && poetry config virtualenvs.create false
 
-RUN cd Candidates && poetry install --no-dev
+RUN cd Candidates/django-package && poetry install --no-dev

@@ -3,7 +3,7 @@ services:
   api:
     container_name: candidates
     build:
-      context: ..
+      context: .
     ports:
       - "8000:8000"
     depends_on:
@@ -13,15 +13,18 @@ services:
       - bash
       - -c
       - |
-        python manage.py migrate --check
+        cd Candidates && python manage.py migrate --check
         status=$$?
         if [[ $$status -eq 0 ]]
           then echo -e '\033[0;33m'"Migrations are not detected."
         else
           echo  -e '\033[0;31m'"Unapplied migrations are detected!"
+          python manage.py makemigrations
+          python manage.py migrate
           python manage.py loadall
         fi
         python manage.py runserver 0.0.0.0:8000 --noreload
+        echo -e '\033[0;33m'"Server start"
   db:
     container_name: team_force_django
     image: postgres:12.4-alpine
@@ -35,7 +38,7 @@ services:
     ports:
       - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -d advertisment -U candidates"]
+      test: ["CMD-SHELL", "pg_isready -d candidates -U djangoappuserdb"]
       interval: 5s
       timeout: 5s
       retries: 5

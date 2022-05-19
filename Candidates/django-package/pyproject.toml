@@ -14,7 +14,6 @@ drf-spectacular = "^0.22.1"
 pytest-factoryboy = "^2.3.0"
 djangorestframework-simplejwt = "4.8.0"
 django-filter = "^21.1"
-django-taggit = "^3.0.0"
 djoser = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
