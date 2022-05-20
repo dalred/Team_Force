@@ -24,7 +24,6 @@ services:
           python manage.py loadall
         fi
         python manage.py runserver 0.0.0.0:8000 --noreload
-        echo -e '\033[0;33m'"Server start"
   db:
     container_name: team_force_django
     image: postgres:12.4-alpine
